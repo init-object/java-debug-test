@@ -9,8 +9,8 @@ import com.init.object.DebugTest;
 public class TestController {
 
     @GetMapping(value = "test")
-    public void test(){
-        DebugTest.test();
+    public String test(){
+        return DebugTest.test();
     }
     
 }

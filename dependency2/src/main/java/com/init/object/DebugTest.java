@@ -1,7 +1,8 @@
 package com.init.object;
 
 public class DebugTest {
-    public static void test(){
+    public static String test(){
         System.out.println("test2");
+        return "test2 run";
     }
 }
