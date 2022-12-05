@@ -1,0 +1,29 @@
+# Java class files
+*.class
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+/target
+/target/
+**/target/
+
+
+.DS_Store
+Thumbs.db
+/.gradle/
+
+
+
+test/src/main/resources/static/
+test/src/test/
+
+
